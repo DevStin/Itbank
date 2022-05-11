@@ -1,18 +1,38 @@
 #fondo {
+    float:left
+    max-width: 100px;
   background-image: url('captura.png');
    height: 100px;
    width: 100px;
   color: red;
  background-size: 100px 100px;
- margin: 0px 0px 0px 25px;
+ margin: 0px 100px 0px 25px;
+
 
 }
 #titulo{
+display: inline;
     font-family: 'Koulen';
 width: 10px;
 text-align: center;
     color: black;
-margin: auto;
+margin: 100px 0px 0px 800px;
 text-decoration: underline;
 text-shadow: 5px 5px 8px purple;
+}
+a:link{
+    max-width: 70px;
+display: block;
+    color: blueviolet;
+}
+a:visited{
+    color:goldenrod
+}
+a:hover{
+    color: aquamarine;
+    border: dashed 5px violet;
+}
+a:active{
+    color: crimson;
+    border: dotted 10px black;
 }
