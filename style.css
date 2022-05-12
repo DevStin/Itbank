@@ -1,38 +1,41 @@
-#fondo {
-    float:left
-    max-width: 100px;
-  background-image: url('captura.png');
-   height: 100px;
-   width: 100px;
-  color: red;
- background-size: 100px 100px;
- margin: 0px 100px 0px 25px;
+body {
+    background-color: #eee;
+    margin: 0;
+}
+header{
+    color:#315a88;
+    font-family: Abril Fatface;
+    margin: 0;
+    text-align: left;
+    background-color: #bababa;
+    padding: 10px;
 
 
 }
-#titulo{
-display: inline;
-    font-family: 'Koulen';
-width: 10px;
-text-align: center;
-    color: black;
-margin: 100px 0px 0px 800px;
-text-decoration: underline;
-text-shadow: 5px 5px 8px purple;
+
+
+
+
+
+#logo{
+    font-family: Abril Fatface;
+    background-color:#bababa;
+    float: top left;
+    margin: 0;
+    max-width: 50px;
+    display: inline;
+    color:#315a88;
 }
-a:link{
-    max-width: 70px;
-display: block;
-    color: blueviolet;
+h2{
+    display: ;
+    float: top;
+    margin: 0;
+margin-top: 10px;
+text-align: top;
+
 }
-a:visited{
-    color:goldenrod
-}
-a:hover{
-    color: aquamarine;
-    border: dashed 5px violet;
-}
-a:active{
-    color: crimson;
-    border: dotted 10px black;
+h3{
+    text-align: left;
+    float:right top;
+    display: inline;
 }
